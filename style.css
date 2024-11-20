@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(3, 43, 45) !important;
+    height: 100vh;
+    /* overflow: hidden; */
+
+}
+.nav{
+    background-color: white !important;
+    
+    
+    
+}
+.nav-logo-box{
+    margin-left: 10% !important;
+}
+.nav-logo-box a{
+    /* color: white !important; */
+    font-weight: bold;
+}
+.nav-item {
+    /* position: relative;
+    left: 25%; */
+    
+    
+}
+.nav-item a{
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    color: white !important;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+.container{
+    max-width: 512px !important;
+    position: relative;
+    top: 20%;
+    left: 3%;
+
+  
+   
+}
+.card{
+    width:min(80%, 70rem) ;
+    /* margin-inline: auto; */
+    /* position: relative;
+    top: 30%; */
+    border: none !important;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: transparent !important;
+}
+
+
+.taskbar{
+    height: 5vh;
+    width: 80%;
+    border-radius: 2px; 
+    text-align: center;
+    border: none;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+}
+.taskbar:focus{
+    outline: none;
+}
+.addbtn{
+    position: relative;
+    left: 83%;
+    margin-top: -8.5%;
+    width: 15%;
+    height: 5vh;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -6%;
+    
+}
+ul li{   
+   background-color: white;
+   margin-top: 15px;
+   text-align: left;
+   border-radius: 2px;
+   display: flex;
+   justify-content: space-around;
+   padding-left:2%;
+ 
+}
+ul li span{
+    margin-left: 10px;
+    flex: 1;
+    
+    
+}
+
+
+ul li img{
+   margin-right:2% ;
+}
+@media all and (max-width:321px){
+    .addbtn{
+        top: -12px;
+        font-size: 10px;
+    }
+}
+@media all and (min-width:321px) and (max-width:380px){
+    .addbtn{
+        font-size: 10px;
+        top: -10px;
+    }
+    .container{
+        left: 8%;
+    }
+}
+
+@media all and (min-width:380px) and (max-width:480px){
+    .addbtn{
+        top: -.5rem;
+    }
+}
